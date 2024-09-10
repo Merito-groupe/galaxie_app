@@ -69,6 +69,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '414121755451',
     projectId: 'galaxieapp-43578',
     storageBucket: 'galaxieapp-43578.appspot.com',
+    androidClientId: '414121755451-qld1cnq6mabhmbb3vmmkuvig5f5i4899.apps.googleusercontent.com',
     iosClientId: '414121755451-kgomv9pe6ac75447qtlvgei6ogbh91ok.apps.googleusercontent.com',
     iosBundleId: 'com.example.galaxieApp',
   );
