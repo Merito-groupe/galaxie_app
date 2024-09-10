@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414121755451",
+    "project_id": "galaxieapp-43578",
+    "storage_bucket": "galaxieapp-43578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414121755451:android:6fa8fa85658215369cad1e",
+        "android_client_info": {
+          "package_name": "com.example.galaxie_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414121755451-rdnjtl4mrfn2hmdl03vsftankgim7gi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxD8nGokTtinS6JMmt5HU3yePt7Ugqn3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414121755451-rdnjtl4mrfn2hmdl03vsftankgim7gi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
