@@ -15,10 +15,7 @@ class _ParametrePageState extends State<ParametrePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Paramètres'),
-        backgroundColor: Colors.blueAccent,
-      ),
+       
       body: ListView(
         children: [
           _buildListTile(
