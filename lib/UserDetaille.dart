@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:galaxie_app/pages/add_advertisement_page.dart';
-import 'package:galaxie_app/pages/parametre_page.dart';
+import 'package:flutter/material.dart';
+import 'package:galaxie_app/pages/ParametrePage.dart';
 
 class UserDetailsPage extends StatefulWidget {
   final User user;
@@ -16,10 +15,10 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
   int _currentIndex = 0;
 
   final _pages = [
-    ParametrePage(),
-    AddAdvertisementPage(),
-    ParametrePage(),
-    ParametrePage(),
+    const ParametrePage(), // Replace with actual pages
+    const ParametrePage(),
+    const ParametrePage(),
+    const ParametrePage(),
   ];
 
   @override
@@ -40,8 +39,8 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
                     'Maison GALAXY',
                     style: TextStyle(
                       color: Colors.black,
-                      fontSize: 24, // Augmenter la taille de la police
-                      fontWeight: FontWeight.bold, // Rendre le texte en gras
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
@@ -54,35 +53,23 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
                       hintText: ' vous cherchez quoi?',
                       hintStyle: TextStyle(color: Colors.grey),
                       suffixIcon: Padding(
-                        padding: const EdgeInsets.only(
-                            right: 0), // Ajouter un léger espace à droite
+                        padding: const EdgeInsets.only(right: 0),
                         child: Container(
                           decoration: BoxDecoration(
-                            color: Color.fromARGB(
-                                255, 5, 5, 5), // Couleur de fond noire
-                            border: Border(
-                              right: BorderSide(
-                                color: Colors.black, // Couleur de la bordure
-                                width: 2.0, // Largeur de la bordure
-                              ),
-                            ),
+                            color: Color.fromARGB(255, 5, 5, 5),
                             borderRadius: BorderRadius.circular(0),
                           ),
                           child: IconButton(
-                            icon: Icon(Icons.search,
-                                color:
-                                    const Color.fromARGB(255, 255, 255, 255)),
+                            icon: Icon(Icons.search, color: Colors.white),
                             onPressed: () {
-                              // Action à effectuer lors du clic sur l'icône de recherche
+                              // Action to perform on search button click
                             },
                           ),
                         ),
                       ),
                       filled: true,
                       fillColor: Colors.white,
-                      contentPadding: EdgeInsets.symmetric(
-                          vertical: 10.0,
-                          horizontal: 20.0), // Décalage à droite
+                      contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(30.0),
                         borderSide: BorderSide.none,
@@ -107,8 +94,7 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
         unselectedItemColor: const Color.fromARGB(255, 74, 74, 74),
         selectedIconTheme: IconThemeData(size: 30),
         unselectedIconTheme: IconThemeData(size: 25),
-        selectedLabelStyle:
-            TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+        selectedLabelStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
         unselectedLabelStyle: TextStyle(fontSize: 12),
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -125,7 +111,7 @@ class _UserDetailsPageState extends State<UserDetailsPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            label: 'Paramètre', // Correction de la faute d'orthographe
+            label: 'Paramètre',
           ),
         ],
       ),
