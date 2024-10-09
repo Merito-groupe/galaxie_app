@@ -26,10 +26,7 @@ class _AdresseLivraisonState extends State<AdresseLivraison> {
   Future<void> _loadUserData() async {
     if (user != null) {
       // Récupérer les informations de la collection 'clientProfil'
-      DocumentSnapshot userProfile = await FirebaseFirestore.instance
-          .collection('clientProfil')
-          .doc(user!.uid)
-          .get();
+      DocumentSnapshot userProfile = await FirebaseFirestore.instance.collection('clientProfil').doc(user!.uid).get();
 
       if (userProfile.exists) {
         Map<String, dynamic>? data =

@@ -21,7 +21,7 @@ class _PolitiquesdeRetourState extends State<PolitiquesdeRetour> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Paragraphe 1",
+              "Conditions Générales de Retour",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -29,15 +29,15 @@ class _PolitiquesdeRetourState extends State<PolitiquesdeRetour> {
             ),
             SizedBox(height: 8),
             Text(
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
-              "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
-              "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              "Nous acceptons les retours sous 14 jours à compter de la date de réception de votre commande. "
+              "Les produits doivent être retournés dans leur état d'origine, non ouverts et non utilisés. "
+              "Nous nous réservons le droit de refuser tout retour ne respectant pas ces conditions.",
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 16),
 
             Text(
-              "Paragraphe 2",
+              "Procédure de Retour",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -45,14 +45,14 @@ class _PolitiquesdeRetourState extends State<PolitiquesdeRetour> {
             ),
             SizedBox(height: 8),
             Text(
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "
-              "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+              "Pour initier un retour, veuillez contacter notre service client via l'adresse e-mail support@cosmetique.com en indiquant votre numéro de commande et la raison du retour. "
+              "Un formulaire de retour vous sera envoyé avec les instructions à suivre. Les frais de retour sont à la charge du client, sauf en cas de produit défectueux.",
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 16),
 
             Text(
-              "Paragraphe 3",
+              "Produits Exemptés de Retour",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -60,14 +60,14 @@ class _PolitiquesdeRetourState extends State<PolitiquesdeRetour> {
             ),
             SizedBox(height: 8),
             Text(
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, "
-              "totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+              "Certains produits ne peuvent pas être retournés pour des raisons d'hygiène et de sécurité. "
+              "Cela inclut les produits cosmétiques ouverts, les pinceaux, les accessoires de maquillage, ainsi que les produits en promotion ou soldés.",
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 16),
 
             Text(
-              "Paragraphe 4",
+              "Remboursement",
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
@@ -75,41 +75,8 @@ class _PolitiquesdeRetourState extends State<PolitiquesdeRetour> {
             ),
             SizedBox(height: 8),
             Text(
-              "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-              style: TextStyle(fontSize: 16),
-            ),
-             Text(
-              "Paragraphe 4",
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 8),
-            Text(
-              "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-              style: TextStyle(fontSize: 16),
-            ), Text(
-              "Paragraphe 4",
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 8),
-            Text(
-              "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
-              style: TextStyle(fontSize: 16),
-            ), Text(
-              "Paragraphe 4",
-              style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 8),
-            Text(
-              "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+              "Une fois votre retour reçu et inspecté, nous vous enverrons un e-mail pour vous notifier de l'approbation ou du rejet de votre remboursement. "
+              "Si approuvé, votre remboursement sera traité, et un crédit sera automatiquement appliqué à votre mode de paiement d'origine dans un délai de 5 à 10 jours ouvrables.",
               style: TextStyle(fontSize: 16),
             ),
           ],
